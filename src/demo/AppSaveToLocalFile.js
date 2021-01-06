@@ -70,6 +70,8 @@ function App (props) {
     <Camera
       onTakePhoto = { (dataUri) => { handleTakePhoto(dataUri); } }
       imageType={IMAGE_TYPES.PNG}
+      isMaxResolution = {true}
+
     />
   );
 }
